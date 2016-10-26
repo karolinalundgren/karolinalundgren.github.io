@@ -111,8 +111,8 @@ p {
   overflow: hidden;
   padding-top: 35vh;
   padding-right: 0px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/Dj Oz Foto Harald Nilsson-15503 (1).jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/Dj Oz Foto Harald Nilsson-15503 (1).jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/Dj-Oz-Foto-Harald-Nilsson-15503-1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/Dj-Oz-Foto-Harald-Nilsson-15503-1.jpg');
   background-position: 0px 0px, 50% -55px;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -122,7 +122,7 @@ p {
   overflow: hidden;
   padding-top: 35vh;
   padding-left: 0px;
-  background-image: url('../images/InPhokus by Funke-8772.jpg');
+  background-image: url('../images/InPhokus-by-Funke-8772.jpg');
   background-position: 50% 0px;
   background-size: cover;
   background-attachment: fixed;
@@ -140,6 +140,8 @@ p {
 
 .section.work {
   height: auto;
+  padding-right: 100px;
+  padding-left: 100px;
   background-image: none;
 }
 
@@ -160,7 +162,8 @@ p {
 }
 
 .window.right {
-  bottom: 45px;
+  bottom: 100px;
+  width: 56%;
   margin-bottom: 0px;
   float: right;
   background-color: hsla(0, 0%, 100%, .7);
@@ -192,6 +195,7 @@ p {
   margin-bottom: 29px;
   padding-right: 6%;
   padding-left: 6%;
+  color: #444;
   text-align: center;
 }
 
@@ -224,7 +228,7 @@ p {
 
 .contact-window {
   display: block;
-  width: 700px;
+  width: 89%;
   margin: 50px auto 10px;
   padding: 50px;
   border: 1px solid #000;
@@ -348,6 +352,45 @@ p {
   text-decoration: underline;
 }
 
+.brand {
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.video-margin {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+.youtube-channel-container {
+  margin-bottom: 50px;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.html-channel {
+  display: block;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph {
+  color: #000;
+}
+
 html.w-mod-js *[data-ix="heading"] {
   opacity: 0;
   -webkit-transform: translate(100px, 0px);
@@ -386,5 +429,99 @@ html.w-mod-js *[data-ix="swoop-left"] {
   -webkit-transform: translate(65px, -30px);
   -ms-transform: translate(65px, -30px);
   transform: translate(65px, -30px);
+}
+
+@media (max-width: 991px) {
+  .section._1 {
+    background-position: 0px 0px, -140px 0px;
+  }
+  .section.kontakt {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .window.right {
+    bottom: 211px;
+  }
+  .contact-window {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .section._1 {
+    padding-left: 51px;
+    background-position: 0px 0px, -332px 0px;
+  }
+  .section.work {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+  .section.kontakt {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .window.right {
+    bottom: 159px;
+    width: 93%;
+  }
+  .contact-window {
+    width: 100%;
+  }
+  .video-margin {
+    width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .section._2 {
+    height: 100%;
+    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/Dj-Oz-Foto-Harald-Nilsson-15503-1.jpg');
+    background-image: linear-gradient(180deg, null, null), url('../images/Dj-Oz-Foto-Harald-Nilsson-15503-1.jpg');
+    background-position: 0px 0px, 50% 0px;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+  }
+  .section._3 {
+    background-attachment: scroll;
+  }
+  .section._1 {
+    padding-left: 10px;
+    background-image: -webkit-linear-gradient(180deg, transparent, #fff), url('../images/DSC_0929.JPG');
+    background-image: linear-gradient(270deg, transparent, #fff), url('../images/DSC_0929.JPG');
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+  }
+  .section.work {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section.kontakt {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .window {
+    bottom: 123px;
+    width: 265px;
+    padding: 10px;
+  }
+  .window.right {
+    width: 270px;
+    padding: 5px;
+  }
+  .main-heading {
+    margin-top: 168px;
+    margin-left: 0px;
+    font-size: 60px;
+    line-height: 66px;
+  }
+  .contact-window {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .paragraph {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 
